@@ -28,15 +28,35 @@ a#header-title {
     float: left;
     border: none;
     outline: none;
+    cursor: pointer;
     padding: 20px 10px 15px 10px;
     font-size: 24px;
     width: 25%;
-    cursor: pointer;
 }
 
-.tab:hover {
+.tab:hover, a.link:hover {
     background-color: #777;
   }
+  
+.tab.active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.tabContent {
+    text-align: center;
+    background: whitesmoke;
+    margin: 0;
+    font-family: Arial;
+    padding: 100px 20px;
+    height: 100%;
+    display: none;
+  } 
+
+h2 {
+    padding: 20px !important;
+
+}
 
 #footer{
     position: relative;

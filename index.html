@@ -10,77 +10,82 @@
       <a id="header-title" href="index.html">Julie Ann Meng</a>        
     </div>
     <div class="tabs">
-        <button id="homeTab" class="tab">Home</button>
-        <button id="aboutTab" class="tab">About</button>
-        <button id="projectsTab" class="tab">Projects</button>
-        <button id="linksTab" class="tab">Links</a>
-      </div>
-    <div>
-        <h1>
-            Welcome to Julie's Personal Website.
-        </h1> 
-        <p>
-            Here you will find information regarding Julie Meng, the creator of this webpage.
-            This page is to show off her skill and talent that was picked up during her pre-work studies. 
-            Please enjoy this website!
-        </p>
+      <button id="homeTab" class="tab" onclick="openTab(event, 'home')">Home</button>
+      <button id="aboutTab" class="tab" onclick="openTab(event, 'about')">About</button>
+      <button id="projectsTab" class="tab" onclick="openTab(event, 'projects')">Projects</button>
+      <button id="linksTab" class="tab" onclick="openTab(event, 'links')">Links</a>
     </div>
-    <div>
-        <h1>
-            <strong>About</strong>
-        </h1>
-        <p>
-            After graduating the University of Centeral Florida, Julie began working as an Event Coordinator.
-            She planned many public events, both small and large in scale.
-            After several years, she found herself wanting to do something more with her life, dealing with upset event guests was not as fulfilling as she had hoped.  
-            She quit her job and began her search for a new career.
-        </p>
-        <h2>
-            <strong>Career Change</strong>
-        </h2>
-        <p>
-            A friend of her's completed the Software Engineering cohort at Flatiron school, and was excited to inform Julie of her new career.
-            Julie then applied for the program and was ecstatic that she was accepted.
-            Julie will be attending the Software Engineering course at Flatiron School. 
-            She is set to join the programs cohort on August 9, 2021. 
-            Ready for a career change and to learn something new, Julie is up to the challenge!
-        </p>
-        <h3>Julie Enjoys:</h3>
-        <ul>
-            <li>Gardening! Paticularly growing fruits and vegteables.</li>
-            <li>The outdoors, beaches and hiking.</li>
-            <li>her family and her home.</li>
-            <li>Dogs, cats, snakes, turtles... pretty much all animals! (except spiders/centipedes/millipedes)</li>
-            <li>Reading irrelavent sci-fi and/or fantasy books.</li>
-        </ul>
-    </div>
-    <div>
-        <h2>
-            <strong>Personal Projects</strong>
-        </h2>
-        <h4>--pardon the dust--</h4>
-        <p>
-            This section is still under construction. 
-        </p>
-        <p>
-            Check this section for links after Halloween 2021!
-        </p>
-    </div>
-    <div>
-        <h2>
-            <strong>Links</strong>
-        </h2>
-        <p>
-            <a href="https://www.linkedin.com/in/juliemeng632/">LinkedIn</a>
-            <a href="https://github.com/JulieAnnMeng">GitHub</a>
-            <a href="mailto:julieannmeng@gmail.com">Contact</a>
-        </p>
+    <div id="home" class="tabContent">
+      <h1>
+          Welcome to Julie's Personal Website.
+      </h1> 
+      <p>
+          Here you will find information regarding Julie Meng, the creator of this webpage.
+          This page is to show off her skill and talent that was picked up during her pre-work studies. 
+          Please enjoy this website!
+      </p>
     </div>
 
-    <!-- <script src="script.js"></script> -->
+    <div id="about" class="tabContent">
+      <h1>
+         <strong>About</strong>
+      </h1>
+      <p>
+        After graduating the University of Centeral Florida, Julie began working as an Event Coordinator.
+        She planned many public events, both small and large in scale.
+        After several years, she found herself wanting to do something more with her life, dealing with upset event guests was not as fulfilling as she had hoped.  
+        She quit her job and began her search for a new career.
+      </p>
+      <h2>
+        <strong>Career Change</strong>
+      </h2>
+      <p>
+        A friend of her's completed the Software Engineering cohort at Flatiron school, and was excited to inform Julie of her new career.
+        Julie then applied for the program and was ecstatic that she was accepted.
+        Julie will be attending the Software Engineering course at Flatiron School. 
+        She is set to join the programs cohort on August 9, 2021. 
+        Ready for a career change and to learn something new, Julie is up to the challenge!
+      </p>
+      <h3>Julie Enjoys:</h3>
+      <ul>
+          <li>Gardening! Paticularly growing fruits and vegteables.</li>
+          <li>The outdoors, beaches and hiking.</li>
+          <li>her family and her home.</li>
+          <li>Dogs, cats, snakes, turtles... pretty much all animals! (except spiders/centipedes/millipedes)</li>
+          <li>Reading irrelavent sci-fi and/or fantasy books.</li>
+      </ul>
+    </div>
+
+    <div id="projects" class="tabContent">
+      <h2>
+          <strong>Personal Projects</strong>
+      </h2>
+      <h4>--pardon the dust--</h4>
+      <p>
+        This section is still under construction. 
+      </p>
+      <p>
+        Check this section for links after Halloween 2021!
+      </p>
+    </div>
+      
+    <div id="links" class="tabContent">
+      <h2>
+        <strong>Links</strong>
+      </h2>
+      <p>
+        <a href="https://www.linkedin.com/in/juliemeng632/">LinkedIn</a>
+        <a href="https://github.com/JulieAnnMeng">GitHub</a>
+        <a href="mailto:julieannmeng@gmail.com">Contact</a>
+      </p>
+    </div>
+
+    <script src="script.js"></script>
 
     <div id="footer">
-        <p>Property of Julie Ann Meng<br>(2021)</p>
-    </div>
+      <p>Property of Julie Ann Meng<br>(2021)</p>
+    <div>
+
+    
   </body>
 </html> 
