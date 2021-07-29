@@ -22,6 +22,17 @@ a#header-title {
     font-weight: bolder;
 }
 
+button{
+    background-color: teal;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    padding: 20px 10px 15px 10px;
+    font-size: 24px;
+    width: 25%;
+}
+
 #footer{
     position: relative;
     text-align: center;
