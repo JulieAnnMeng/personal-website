@@ -28,16 +28,16 @@ a#header-title {
     float: left;
     border: none;
     outline: none;
-    cursor: pointer;
     padding: 20px 10px 15px 10px;
     font-size: 24px;
     width: 25%;
+    cursor: pointer;
 }
 
 .tab:hover, a.link:hover {
     background-color: #777;
   }
-  
+
 .tab.active {
     background-color: whitesmoke;
     color: black;
@@ -48,14 +48,31 @@ a#header-title {
     background: whitesmoke;
     margin: 0;
     font-family: Arial;
+    display: none;
     padding: 100px 20px;
     height: 100%;
-    display: none;
   } 
+
+.lists {
+    text-align: left !important;
+}
 
 h2 {
     padding: 20px !important;
 
+}
+
+a.link {
+    padding: 15px !important;
+    color: whitesmoke !important;
+    font-size: 24px !important;
+    text-decoration: none !important;
+    margin: 20px;
+    border-color: cadetblue;
+    background-color: teal;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 #footer{
