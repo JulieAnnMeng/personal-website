@@ -1,0 +1,23 @@
+div#topBanner.topBanner {
+    background: rgba(128, 128, 128, 0.75);
+    position: sticky;
+    padding: 15px;
+}
+
+img#julie {
+    box-sizing: content-box;
+    height: 125px;
+    vertical-align: middle;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+a#header-title {
+    text-decoration: none; 
+    box-sizing: content-box;
+    padding: 35px 25px 25px 35px;
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: teal;
+    font-size: 62px;
+    font-weight: bolder;
+}
