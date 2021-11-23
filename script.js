@@ -4,7 +4,7 @@ window.onload = function(){
 }
 
 function openTab(event, tabName) {
-    var i, tabContent, tab;
+    let i, tabContent, tab;
     
     tab = document.getElementsByClassName("tab");
     for (i = 0; i < tab.length; i++) {
