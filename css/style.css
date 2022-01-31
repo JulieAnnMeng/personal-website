@@ -30,7 +30,7 @@ a#header-title {
     outline: none;
     padding: 20px 10px 15px 10px;
     font-size: 24px;
-    width: 25%;
+    width: 50%;
     cursor: pointer;
 }
 
@@ -57,22 +57,31 @@ a#header-title {
     text-align: left !important;
 }
 
-h2 {
+h1 {
     padding: 20px !important;
-
+    font-size: 48px;
 }
 
-a.link {
-    padding: 15px !important;
-    color: whitesmoke !important;
-    font-size: 24px !important;
-    text-decoration: none !important;
-    margin: 20px;
-    border-color: cadetblue;
-    background-color: teal;
-    border: none;
-    outline: none;
-    cursor: pointer;
+.img-proj {
+    height: 250px;
+    width: 350px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+th {
+    font-size: 36px;
+}
+
+.projects td {
+    width: 33.3%;
+}
+
+#footer th {
+    font-size: 36px;
 }
 
 #footer{
@@ -85,5 +94,5 @@ a.link {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 100px;
  }

@@ -11,25 +11,15 @@
     </div>
     <div class="tabs">
       <button id="homeTab" class="tab" onclick="openTab(event, 'home')">Home</button>
-      <button id="aboutTab" class="tab" onclick="openTab(event, 'about')">About</button>
       <button id="projectsTab" class="tab" onclick="openTab(event, 'projects')">Projects</button>
-      <button id="linksTab" class="tab" onclick="openTab(event, 'links')">Links</a>
     </div>
     <div id="home" class="tabContent">
       <h1>
           Welcome to Julie's Personal Website.
       </h1> 
-      <h2>Software Engineer - JavaScript | React.js | Ruby on Rails</h2>
-      <p>
-          Here you will find information regarding Julie Meng, the creator of this webpage.
-          This page is to show off her skill and talent that was picked up during her pre-work studies. 
-          Please enjoy this website!
-      </p>
-    </div>
-    <div id="about" class="tabContent">
-      <h1>
-         <strong>About</strong>
-      </h1>
+      <h2>
+        Software Engineer - JavaScript | React.js | Ruby on Rails
+      </h2>
       <p>
         Full stack web developer with a passion for coding. 
         A graduate of the University of Central Florida and of the Flatiron School with a strong background in logistics and planning. 
@@ -37,10 +27,11 @@
         Excited to dive head first into a Software Engineering career.
       </p>
     </div>
+    </div>
     <div id="projects" class="tabContent">
-      <h2>
+      <h1>
           <strong>Personal Projects</strong>
-      </h2>
+      </h1>
       <table>
         <tr>
           <th>Code B</th>
@@ -48,41 +39,56 @@
           <th>Project Garden</th>
         </tr>
         <tr>
-          <td><img src="assets/img/code_B_website.jpg" alt="Code_B image" width="100" height="100" /></td>
-          <td><img src="assets/images/portfolio/the_task_spot.png" alt="The Task Spot image"></td>
-          <td><img src="assets/images/portfolio/Project Garden.png" alt="Project Garden image"></td>
+          <td><a href="https://code--b.herokuapp.com/" ><img src="assets/img/portfolio/code_B_website_view.jpg" alt="Code_B image" class="img-proj" ></a></td>
+          <td><a href="https://github.com/Task-Spot/the-task-spot-v2"><img src="assets/img/portfolio/the-Task-Spot.png" alt="The Task Spot image" class="img-proj" ></a></td>
+          <td><img src="assets/img/portfolio/Project Garden.png" alt="Project Garden image" class="img-proj"  ></td>
         </tr>
         <tr>
           <td>A forum for all coding discussions, where users can interact with each other and continue their education in programming. 
-            Check out the repository <a href="https://github.com/JulieAnnMeng/code_B">here</a>.
-            This project is now live and can be viewed <a href="https://code--b.herokuapp.com/">here</a>.
-            Please check back for additional features!
+            <br /> Check out the repository <a href="https://github.com/JulieAnnMeng/code_B">here</a>.
+            <br /> This project is now live and can be viewed <a href="https://code--b.herokuapp.com/">here</a>.
+            <br /> Please check back for additional features!
           </td>
           <td>
             One application to track your tasks, whether it is work, grocery shopping, or finding something fun to do. 
-            Check out the repository <a href="https://github.com/Task-Spot/the-task-spot-v2">here</a>. 
-            Deployment plans are in the works!
-            Please note: this project is still under construction.
+            <br /> Check out the repository <a href="https://github.com/Task-Spot/the-task-spot-v2">here</a>. 
+            <br /> Deployment plans are in the works!
+            <br /> Please note: this project is still under construction.
           </td>
           <td>
-            This project is still currently in the works. Check back later for more information!
+            This project is still currently in the works. 
+            <br /> Check back later for more information!
           </td>
         </tr>
       </table>
     </div>   
-    <div id="links" class="tabContent">
-      <h2>
-        <strong>Links</strong>
-      </h2>
-      <p>
-        <a class="link" href="https://www.linkedin.com/in/juliemeng632/">LinkedIn</a>
-        <a class="link" href="https://github.com/JulieAnnMeng">GitHub</a>
-        <a class="link" href="mailto:julieannmeng@gmail.com">Contact</a>
-      </p>
-    </div>
     <script src="js/script.js"></script>
     <div id="footer">
-      <p>Property of Julie Ann Meng<br>(2021)</p>
+      <table>
+        <tr>
+          <th>Location</th>
+          <th>Links</th>
+          <th>About</th>
+        </tr>
+        <tr>
+          <td>
+            Longwood, FL (Orlando area)
+          </td>
+          <td>
+            <div id="links">
+              <p>
+                <a href="https://github.com/JulieAnnMeng"><img src="assets/github.svg" alt="GitHub"></a>&nbsp;&nbsp;  
+                <a href="https://www.linkedin.com/in/juliemeng632/"><img src="assets/linkedin.svg" alt="LinkedIn" ></a>&nbsp;&nbsp;  
+                <a href="https://twitter.com/JulieAnnMeng"><img src="assets/twitter.svg" alt="twitter"></a>&nbsp;&nbsp;      
+                <a href="mailto:julieannmeng@gmail.com"><img src="assets/mail.svg" alt="email"></a>
+              </p>
+            </div>
+          </td>
+          <td>
+            Property of Julie Ann Meng(2021)
+          </td>
+        </tr>
+      </table>
     <div>
   </body>
 </html> 
